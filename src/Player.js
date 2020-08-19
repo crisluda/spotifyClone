@@ -9,7 +9,7 @@ function Player({ spotiy }) {
     <div className="player">
       <div className="player_body">
         <Sidebar />
-        <Body />
+        <Body spotiy={spotiy} />
       </div>
       <Footer />
     </div>
