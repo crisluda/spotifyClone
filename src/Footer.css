@@ -52,3 +52,13 @@
 .footer_sonyInfo p {
     font-size: 12px;
 }
+
+.footer_green:hover,
+.footer_icon:hover {
+    transition: transform 0.2 ease-in;
+    transform: scale(1.2) !important;
+}
+
+.footer_right * .MuiSlider-root {
+    color: green;
+}
